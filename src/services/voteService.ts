@@ -1,7 +1,5 @@
-// services
 import * as tokenService from './tokenService'
 
-// types
 import { Profile } from "../types/models"
 import { VoteManagerFormData } from "../types/forms" 
 

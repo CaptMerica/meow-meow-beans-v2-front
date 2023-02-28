@@ -1,10 +1,7 @@
-// assets
 import defaultPic from '../../assets/icons/profile.png'
 
-// components
 import VoteManager from '../VoteManager/VoteManager'
 
-//types
 import { Profile } from '../../types/models'
 import { VoteManagerFormData } from '../../types/forms'
 
