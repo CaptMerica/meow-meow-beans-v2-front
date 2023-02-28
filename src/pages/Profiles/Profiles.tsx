@@ -1,7 +1,5 @@
-// components
 import ProfileCard from '../../components/ProfileCard/ProfileCard'
 
-// types
 import { Profile } from '../../types/models'
 import { VoteManagerFormData } from '../../types/forms'
 
