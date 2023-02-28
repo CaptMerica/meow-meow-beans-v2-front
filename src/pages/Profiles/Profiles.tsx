@@ -27,5 +27,5 @@ const Profiles = (props: ProfilesProps): JSX.Element => {
     </main>
   )
 }
- 
+
 export default Profiles

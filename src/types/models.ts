@@ -5,9 +5,12 @@
 /* ---------===== auth models =====--------- */
 
 export interface Vote {
+  id: number;
   value: number;
   profileId: number;
   voterId: number;
+  createdAt: string;
+  updatedAt: string;
 }
 
 export interface Profile {
@@ -17,8 +20,7 @@ export interface Profile {
   userId: number;
   createdAt: string;
   updatedAt: string;
-  votesReceived: Vote[]
-  votesGiven?: Vote[]
+  votesReceived: Vote[];
 }
 
 export interface User {

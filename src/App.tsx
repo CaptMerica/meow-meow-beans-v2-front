@@ -40,7 +40,7 @@ function App(): JSX.Element {
         console.log(error)
       }
     }
-    if (user) fetchProfiles()
+    user ? fetchProfiles() : setProfiles([])
   }, [user])
 
   const handleLogout = (): void => {
