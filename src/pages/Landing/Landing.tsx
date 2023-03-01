@@ -21,7 +21,7 @@ const Landing = ({ user, handleLogout}: LandingProps): JSX.Element => {
 
   return (
     <main className={styles.container}>
-      <h1>FLICK!</h1>
+      <h1>FLICKNOTE</h1>
       <img src={sixteenthNote} alt="A meow meow bean" />
 
       { user &&

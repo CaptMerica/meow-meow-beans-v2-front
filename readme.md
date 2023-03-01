@@ -1,26 +1,22 @@
-# FLICK!
+# Flicknote
 
-![FLICK Landing Page]()
+![FlickNoteLanding Page]()
 
 Pix is a web application with CRUD functionality for music professionals and hobbyists alike.  It allows users to ask questions, receive feedback, and connect with others in the industry. The app also serves as a hub for knowledge sharing and provides access to lyrics as quotes. 
 
 ## Getting Started
 
-🖱️ [Click Here]() to access our application.
+🖱️ [Click Here](https://flicknote.netlify.app/) to access our application.
 
-📒 [Here](https://trello.com/b/iR0dlKnx/pix-trello-board) is the link to our planning materials on Trello.
+📒 [Here](https://trello.com/b/rP6Huel1/flick-project-unit-4) is the link to our planning materials on Trello.
 
 ⬅️ [Backend](https://github.com/CaptMerica/meow-meow-beans-v2-back) repo link.
 
 
 ## Technologies used 💾
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Postgresql] (https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-
-![Typescript]()
-
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
