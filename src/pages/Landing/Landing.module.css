@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url('../../assets/rays.svg');
+  /* background: url('../../assets/rays.svg'); */
   background-position: center center;
   background-size: cover;
 }

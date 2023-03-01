@@ -1,7 +1,11 @@
 import blackNote from '../../assets/icons/blackNote.png'
 import whiteNote from '../../assets/icons/whiteNote.png'
+import piano_up from '../../assets/audio/piano_up.wav'
+import piano_down from '../../assets/audio/piano_down.wav'
+
 
 import { useState } from 'react'
+import useSound from 'use-sound'
 
 import { Profile } from "../../types/models"
 import { VoteManagerFormData } from '../../types/forms'
@@ -24,6 +28,9 @@ const VoteManager = (props: VoteManagerProps): JSX.Element => {
     }
   }
 
+  const [rateUp] = useSound(piano_up, { volume: 0.2})
+  const [rateDown] = useSound(piano_down, { volume: 0.2})
+
   const ratingOptions: [ 1, 2, 3, 4, 5 ] = [ 1, 2, 3, 4, 5 ]
   const voteCount = profile.votesReceived?.length
   let voteSum = 0
@@ -35,6 +42,9 @@ const VoteManager = (props: VoteManagerProps): JSX.Element => {
 
   const handleClick = (evt: React.MouseEvent<HTMLImageElement>): void => {
     const newValue = parseInt(evt.currentTarget.id)
+
+    newValue > profileRating ? rateUp() : rateDown()
+
     handleVote({ value: newValue, profileId: profile.id })
   }
 
@@ -48,7 +58,7 @@ const VoteManager = (props: VoteManagerProps): JSX.Element => {
           onMouseOver={handleHover}
           onMouseLeave={handleHover}
           src={rating <= profileRating ? blackNote : whiteNote}
-          alt="Bean Symbol"
+          alt="Music Note Symbol"
         />
       ))}
 
