@@ -1,5 +1,5 @@
-import bean from '../../assets/icons/bean.png'
-import noBean from '../../assets/icons/noBean.png'
+import blackNote from '../../assets/icons/blackNote.png'
+import whiteNote from '../../assets/icons/whiteNote.png'
 
 import { useState } from 'react'
 
@@ -47,7 +47,7 @@ const VoteManager = (props: VoteManagerProps): JSX.Element => {
           onClick={handleClick}
           onMouseOver={handleHover}
           onMouseLeave={handleHover}
-          src={rating <= profileRating ? bean : noBean}
+          src={rating <= profileRating ? blackNote : whiteNote}
           alt="Bean Symbol"
         />
       ))}

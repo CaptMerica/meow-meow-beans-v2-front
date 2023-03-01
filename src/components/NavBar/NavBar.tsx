@@ -2,7 +2,7 @@
 import { NavLink } from 'react-router-dom'
 
 // assets
-import logo from '../../assets/logo.svg'
+import sixteenthNote from '../../assets/icons/sixteenthNote.png'
 
 // types
 import { User } from '../../types/models'
@@ -18,7 +18,7 @@ const NavBar = (props: NavBarProps): JSX.Element => {
   return (
     <nav>
       <NavLink to="/">
-        <img src={logo} alt="Meow Meow Bean" />
+        <img src={sixteenthNote} alt="Meow Meow Bean" />
       </NavLink>
       {user ?
         <ul>

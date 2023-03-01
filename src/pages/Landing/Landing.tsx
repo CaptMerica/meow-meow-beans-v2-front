@@ -1,5 +1,5 @@
 // assets and stylesheets
-import logo from '../../assets/logo.svg'
+import sixteenthNote from '../../assets/icons/sixteenthNote.png'
 import styles from './Landing.module.css'
 
 // types
@@ -21,8 +21,8 @@ const Landing = ({ user, handleLogout}: LandingProps): JSX.Element => {
 
   return (
     <main className={styles.container}>
-      <h1>Meow Meow <br/> Beans</h1>
-      <img src={logo} alt="A meow meow bean" />
+      <h1>FLICK!</h1>
+      <img src={sixteenthNote} alt="A meow meow bean" />
 
       { user &&
       <button onClick={handleDeleteAccount}>
