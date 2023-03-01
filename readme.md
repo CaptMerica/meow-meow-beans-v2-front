@@ -8,7 +8,7 @@ Flicknote is a web application with CRUD functionality that allows users to rate
 
 🖱️ [Click Here](https://flicknote.netlify.app/) to access our application.
 
-📒 [Here](https://trello.com/b/rP6Huel1/flick-project-unit-4) is the link to our planning materials on Trello.
+📒 [Here](https://trello.com/b/rP6Huel1/flick-project-unit-4) is the link to the planning materials on Trello.
 
 ⬅️ [Backend](https://github.com/CaptMerica/meow-meow-beans-v2-back) repo link.
 
