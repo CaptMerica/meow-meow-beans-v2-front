@@ -6,25 +6,19 @@ Pix is a web application with CRUD functionality for music professionals and hob
 
 ## Getting Started
 
-🖱️ [Click Here](https://pix-tritonic.netlify.app/) to access our application.
+🖱️ [Click Here]() to access our application.
 
 📒 [Here](https://trello.com/b/iR0dlKnx/pix-trello-board) is the link to our planning materials on Trello.
 
-⬅️ [Backend](https://github.com/CaptMerica/pix-back-end.git) repo link.
+⬅️ [Backend](https://github.com/CaptMerica/meow-meow-beans-v2-back) repo link.
 
-## Developers
-[Patrick Mazara](https://github.com/zaragotcode) - Full-Stack Developer & Scrum Master
-
-[Ryan Merica](https://github.com/CaptMerica) - Full-Stack Developer & Git Commander
-
-[Oscar Nunez](https://github.com/oscarnunez1) - Full-Stack Developer & UI Designer
 
 ## Technologies used 💾
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Typescript]()
 
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
@@ -40,21 +34,7 @@ Pix is a web application with CRUD functionality for music professionals and hob
  
 
 ## Latest Modifications 🧹
-- Improved animation for buttons
-- Restricted guest functionality in app
-- Updated UI for comments section
-- Implented logo in landing page
-- Fixed password field in log in and sign up
-- Added profile photos to questions and quotes
+- Included audio clips
 
 ## Ice Box 🧊
-- [ ] Dark Mode!
-- [ ] "Most Helpful" Voting system for comments and posts.
-- [ ] Award system for accolades.
-- [ ] Enum for levels of expertise.
-- [ ] Users and guests can view profiles.
 
-## Special Thanks
-[Mary Lueder](https://github.com/mjlueder)
-[Robert Fridlender](https://github.com/robfrid06)
-[Pin Chen](https://github.com/WarmSkin)
