@@ -2,7 +2,7 @@
 
 ![FlickNoteLanding Page](src/assets/icons/flicknote_1.png)
 
-Pix is a web application with CRUD functionality for music professionals and hobbyists alike.  It allows users to ask questions, receive feedback, and connect with others in the industry. The app also serves as a hub for knowledge sharing and provides access to lyrics as quotes. 
+Flicknote is a web application with CRUD functionality that allows users to rate other profiles with eighth notes.  After appearing on the landing page, you can sign in to create an account.  Once you've signed in, you can rate other profiles with one to five music notes.  If you want to delete your account, there is a Delete Account button at the bottom of the landing page. 
 
 ## Getting Started
 
